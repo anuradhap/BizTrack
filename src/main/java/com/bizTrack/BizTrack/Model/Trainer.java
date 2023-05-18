@@ -20,6 +20,7 @@ public class Trainer {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long trainerId;
+    //@NotBlank(message = "First name is required")
     private String firstName;
     private String lastName;
     private Long mobileNumber;
